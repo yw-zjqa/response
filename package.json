@@ -1,6 +1,17 @@
 {
   "name": "@yw_zjqa/response",
   "version": "0.1.1",
+  "description": "A lightweight and elegant response helper for frontend and backend projects",
+  "keywords": [
+    "response",
+    "api",
+    "typescript",
+    "utility",
+    "ajax",
+    "http"
+  ],
+  "author": "yw_zjqa",
+  "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -9,10 +20,31 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yw-zjqa/response"
+  },
+  "bugs": {
+    "url": "https://github.com/yw-zjqa/response/issues"
+  },
+  "homepage": "https://github.com/yw-zjqa/response#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
