@@ -1,4 +1,4 @@
-# @ywzjqa/response
+# @yw_zjqa/response
 
 > A lightweight, type-safe response formatter for Node.js and frontend projects.
 
@@ -33,7 +33,7 @@ yarn add @yw_zjqa/response
 ## 🚀 Quick Start
 
 ```ts
-import { success, error } from "@ywzjqa/response";
+import { success, error } from "@yw_zjqa/response";
 
 // Success responses
 success();
