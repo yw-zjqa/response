@@ -1,6 +1,7 @@
 {
   "name": "@yw_zjqa/response",
   "version": "0.1.4",
+  "type": "module",
   "description": "A lightweight and elegant response helper for frontend and backend projects",
   "keywords": [
     "response",
